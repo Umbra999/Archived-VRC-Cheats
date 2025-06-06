@@ -1,0 +1,218 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+	<EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Avatar.png" />
+    <None Remove="Resources\Bots.png" />
+    <None Remove="Resources\Console.png" />
+    <None Remove="Resources\Debug.png" />
+    <None Remove="Resources\Disabled.png" />
+    <None Remove="Resources\Download.png" />
+    <None Remove="Resources\Enabled.png" />
+    <None Remove="Resources\Exploits.png" />
+    <None Remove="Resources\History.png" />
+    <None Remove="Resources\MediaDown.png" />
+    <None Remove="Resources\MediaNext.png" />
+    <None Remove="Resources\MediaPlay.png" />
+    <None Remove="Resources\MediaPrevious.png" />
+    <None Remove="Resources\MediaUp.png" />
+    <None Remove="Resources\moon.png" />
+    <None Remove="Resources\Nameplate.png" />
+    <None Remove="Resources\Options.png" />
+    <None Remove="Resources\Physics.png" />
+    <None Remove="Resources\Play.png" />
+    <None Remove="Resources\Safety.png" />
+    <None Remove="Resources\Spoof.png" />
+    <None Remove="Resources\Udon.png" />
+    <None Remove="Resources\Utils.png" />
+    <None Remove="Resources\Visuals.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Avatar.png" />
+    <EmbeddedResource Include="Resources\Bots.png" />
+    <EmbeddedResource Include="Resources\Console.png" />
+    <EmbeddedResource Include="Resources\Debug.png" />
+    <EmbeddedResource Include="Resources\Disabled.png" />
+    <EmbeddedResource Include="Resources\Download.png" />
+    <EmbeddedResource Include="Resources\Enabled.png" />
+    <EmbeddedResource Include="Resources\Exploits.png" />
+    <EmbeddedResource Include="Resources\History.png" />
+    <EmbeddedResource Include="Resources\MediaDown.png" />
+    <EmbeddedResource Include="Resources\MediaNext.png" />
+    <EmbeddedResource Include="Resources\MediaPlay.png" />
+    <EmbeddedResource Include="Resources\MediaPrevious.png" />
+    <EmbeddedResource Include="Resources\MediaUp.png" />
+    <EmbeddedResource Include="Resources\moon.png" />
+    <EmbeddedResource Include="Resources\Nameplate.png" />
+    <EmbeddedResource Include="Resources\Options.png" />
+    <EmbeddedResource Include="Resources\Physics.png" />
+    <EmbeddedResource Include="Resources\Play.png" />
+    <EmbeddedResource Include="Resources\Safety.png" />
+    <EmbeddedResource Include="Resources\Spoof.png" />
+    <EmbeddedResource Include="Resources\Udon.png" />
+    <EmbeddedResource Include="Resources\Utils.png" />
+    <EmbeddedResource Include="Resources\Visuals.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreRuntime">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Runtime\CoreRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="DataModel">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\DataModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks.Win64">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Facepunch.Steamworks.Win64.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Runtime\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Localization.LocalizableString">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Localization.LocalizableString.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon-DotNet">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Photon-DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Sentry.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.Unity">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Sentry.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Runtime\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Udon">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRC.Udon.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Udon.Common">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRC.Udon.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Udon.VM">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRC.Udon.VM.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Udon.VRCWrapperModules">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRC.Udon.VRCWrapperModules.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Udon.Wrapper">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRC.Udon.Wrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.UI.Core">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRC.UI.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.UI.Elements">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRC.UI.Elements.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.UI.Shared">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRC.UI.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCCore-Standalone">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRCCore-Standalone.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCEconomy">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRCEconomy.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDK2">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRCSDK2.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDK3">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRCSDK3.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDKBase">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\VRCSDKBase.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="WebTransMtn">
+      <HintPath>C:\Users\Umbra\AppData\Local\Hexed\UnityLoader\VRChat\Dummy\WebTransMtn.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

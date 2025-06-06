@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0021: Eine Indizierung mit [] kann nicht auf einen Ausdruck vom Typ "Dictionary<string, Object>" angewendet werden.
+dotnet_diagnostic.CS0021.severity = error
